@@ -1,0 +1,489 @@
+.header1 {
+    font-size: 10em;
+    text-align: center;
+    color:#f2f2f2;
+    animation: fadeIn 5s;
+}
+
+
+
+
+.email-signup{
+    display: flex;
+    justify-content: left;
+}
+
+.names {
+    text-align: center;
+    margin: 10px;
+}
+
+
+body {
+    margin: 0;
+}
+.highlight {
+    animation: colorChange 3s forwards; 
+}
+
+.highlight2 {
+    animation: colorChange2 1s forwards;
+}
+
+.highlight3 {
+    animation: colorChange3 5s forwards;
+}
+
+.donate {
+    
+    text-align: center;
+    font-size: larger;
+   
+}
+
+.donh2 {
+    color: white;
+    text-align: center;
+}
+
+
+@keyframes colorChange {
+    from {
+        color: inherit; 
+    }
+    to {
+        color: red; 
+    }
+}
+
+
+
+@keyframes colorChange2 {
+    from {
+        color: inherit; 
+    }
+    to {
+        color: #FEDD00; 
+    }
+}
+
+
+@keyframes colorChange3 {
+    from {
+        color: inherit; 
+    }
+    to {
+        color: #009A44; 
+    }
+}
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+    padding: 14px 0;
+    justify-content: space-around; 
+    align-items: center; 
+    padding: 14px 0;
+    overflow: hidden;
+}
+.navhome {
+    transition: color .5s ease-in-out, font-size .5s ease-in-out;
+
+}
+.navhome:hover {
+    color: green;
+    transition: .5s ease-in-out;
+    font-size: 1.25em;
+  }
+
+body {
+   
+    background-size: 100%;
+ 
+}
+
+
+
+.navbar a {
+    float: left;
+    display: flex;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 14px 20px;
+    text-decoration: none;
+}
+
+.bio {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color:white;
+    font-size: 1em;
+    overflow: hidden;
+    white-space: nowrap;
+    margin: 0 auto; 
+  letter-spacing: .15em; 
+  animation: typing 3.5s steps(30, end), blink-caret 3s step-end infinite;
+  transition: color .5s ease-in-out, font-size .5s ease-in-out;
+
+}
+
+a {
+    text-decoration: none;
+}
+
+@keyframes typing {
+    from { width: 0 }
+    to { width: 50% }
+  }
+  
+  
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    60% { border-color: orange; }
+  }
+
+  .bio:hover {
+    color: gainsboro;
+    transition: .5s ease-in-out;
+    font-size: 1.25em;
+  }
+
+
+.whatnino {
+    overflow: hidden;
+    margin-top: 50px;
+    margin-left: 50px;
+    animation: typing 3.5s steps(30, end), blink-caret 3s step-end infinite;
+    transition: color .5s ease-in-out, font-size .5s ease-in-out;
+    letter-spacing: .15em; 
+    white-space: nowrap;
+    margin: auto; 
+   color: white;
+}
+
+.whatninotxt {
+    color: black;
+    
+    background: lightyellow;
+    border: 1px solid yellow;
+    padding: 1rem;
+    text-decoration: none;
+}
+
+.bubble1 {
+    
+    display: block;
+    justify-content: center;
+    text-align: center;
+}
+
+
+.omega {
+    font-family: 'raleway';
+}
+
+
+
+
+
+.button-31 {
+  background-color: green;
+  border-radius: 4px;
+  border-style: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: "Farfetch Basis","Helvetica Neue",Arial,sans-serif;
+  font-size: 16px;
+  font-weight: 70;
+  line-height: 1.5;
+  margin: 0;
+  max-width: none;
+  min-height: 44px;
+  min-width: 10px;
+  outline: none;
+  overflow: hidden;
+  padding: 9px 20px 8px;
+  position: relative;
+  text-align: center;
+  text-transform: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  width: 100%;
+}
+
+.button-31:hover,
+.button-31:focus {
+  opacity: .75;
+}
+
+
+
+
+.donate {
+   margin-left: 680px;
+   margin-top: 50px;
+   padding: 15px 30px;
+  font-size: 18px;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  transition: 0.5s;
+  background: black;
+  cursor: pointer;
+  color: whitesmoke;
+  box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+  text-align: center;
+} 
+
+
+.donate:hover {
+    background-color: green;
+    border-color: greenyellow;
+  }
+
+h2 {
+    font-family: raleway;
+}
+
+.donateblurb {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: #009A44;
+    font-family: raleway;
+
+
+}
+
+.email-signup {
+    display: flex;
+    margin: 20px 0;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    text-align: center;
+    font-family: raleway;
+    padding: 20px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.email-signup h3 {
+    margin-bottom: 15px;
+    font-size: 1.5em;
+}
+
+.email-signup form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.email-signup label {
+    margin-bottom: 5px;
+}
+
+.email-signup input[type="email"] {
+    padding: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    max-width: 300px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.email-signup button {
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.email-signup button:hover {
+    background-color: #45a049;
+}
+
+body.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+body.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+
+.toggle-button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+body {
+    background-color: gray;
+}
+
+
+body {
+    margin: 0;
+    font-family: 'Raleway', sans-serif;
+    background-color: #333;
+    color: #f2f2f2;
+}
+
+.light-mode {
+    background-color: #ffffff;
+    color: #000000;
+}
+
+.dark-mode {
+    background-color: #000000;
+    color: #ffffff;
+}
+
+.navbar {
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 14px 0;
+}
+
+.navhome {
+    transition: color .5s ease-in-out, font-size .5s ease-in-out;
+}
+
+.navhome:hover {
+    color: green;
+    transition: .5s ease-in-out;
+    font-size: 1.25em;
+}
+
+.toggle-button {
+    cursor: pointer;
+    padding: 10px;
+    background-color: #008cba;
+    color: white;
+    border: none;
+    border-radius: 5px;
+}
+
+.donh2 {
+    color: white;
+    text-align: center;
+}
+
+.donateblurb {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    background-color: #009A44;
+    font-family: 'Raleway';
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px;
+}
+
+.call-to-action {
+    float: left;
+    width: 45%;
+    padding: 20px;
+}
+
+.petition-form {
+    float: right;
+    width: 45%;
+    padding: 20px;
+}
+
+.petition-form form {
+    display: flex;
+    flex-direction: column;
+}
+
+.petition-form .names {
+    display: flex;
+    justify-content: space-between;
+}
+
+.petition-form .names label,
+.petition-form .names input {
+    margin-right: 10px;
+}
+
+.petition-form button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+.petition-form button:hover {
+    background-color: #45a049;
+}
+
+#signatureList {
+    list-style-type: none;
+    padding: 0;
+}
+
+#signatureList li.invalid {
+    color: red;
+}
+
+#signatureList li.valid {
+    color: green;
+}
+
+.donate {
+    display: block;
+    margin: 50px auto;
+    padding: 15px 30px;
+    font-size: 18px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    transition: 0.5s;
+    background: black;
+    cursor: pointer;
+    color: whitesmoke;
+    box-shadow: 0 0 10px #363636, inset 0 0 10px #363636;
+    text-align: center;
+}
+
+.donate:hover {
+    background-color: green;
+    border-color: greenyellow;
+}
+
+
+body {
+    background-color: grey;
+    color: black;
+  }
+  
+  .dark-mode {
+    background-color: black;
+    color: white;
+  }
